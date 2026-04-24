@@ -1,0 +1,66 @@
+const products = [
+  {
+    id: 1,
+    name: "Nike Shoes",
+    price: 999,
+    category: "Shoes",
+    image: new URL("../assets/nike (1).jpg", import.meta.url).href,
+  },
+  {
+    id: 2,
+    name: "Nike Air Max",
+    price: 1299,
+    category: "Shoes",
+    image: new URL("../assets/nike (2).jpg", import.meta.url).href,
+  },
+  {
+    id: 3,
+    name: "Jeans",
+    price: 899,
+    category: "Fashion",
+    image: new URL("../assets/jeans (1).jpg", import.meta.url).href,
+  },
+  {
+    id: 4,
+    name: "Blue Jeans",
+    price: 999,
+    category: "Fashion",
+    image: new URL("../assets/jeans (2).jpg", import.meta.url).href,
+  },
+  {
+    id: 5,
+    name: "Gaming Keyboard",
+    price: 1599,
+    category: "Gaming",
+    image: new URL("../assets/keyboard (1).jpg", import.meta.url).href,
+  },
+  {
+    id: 6,
+    name: "RGB Keyboard",
+    price: 1999,
+    category: "Gaming",
+    image: new URL("../assets/keyboard (2).jpg", import.meta.url).href,
+  },
+  {
+    id: 7,
+    name: "Apple Watch",
+    price: 2999,
+    category: "Electronics",
+    image: new URL("../assets/watch (1).jpg", import.meta.url).href,
+  },
+  {
+    id: 8,
+    name: "Headphones",
+    price: 1499,
+    category: "Electronics",
+    image: new URL("../assets/headphones (1).jpg", import.meta.url).href,
+  },
+  // {
+  //   id: 9,
+  //   name: "T-Shirt",
+  //   price: 499,
+  //   category: "Fashion",
+  //   image: new URL("../assets/tshirt (1).jpg", import.meta.url).href,
+  // },
+];
+export default products;

@@ -1,4 +1,4 @@
-import products from "../data/products";
+import Products from "../data/Products";
 import ProductCard from "./ProductCard";
 
 function FeaturedProducts() {

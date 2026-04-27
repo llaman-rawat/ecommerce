@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import products from "../data/products";
-import Navbar from "../components/NavbarTemp";
-import Footer from "../components/FooterTemp";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 function ProductDetails() {
   const { id } = useParams();

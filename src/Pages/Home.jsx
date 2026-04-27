@@ -1,13 +1,13 @@
 import { useState } from "react";
 
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarTemp";
 import Slider from "../components/Slider";
 import CategorySection from "../components/CategorySection";
 import FeaturedProducts from "../components/FeaturedProducts";
 import ProductList from "../components/ProductList";
 import Reviews from "../components/Reviews";
 import Newsletter from "../components/Newsletter";
-import Footer from "../components/Footer";
+import Footer from "../components/FooterTemp";
 
 function Home() {
   const [category, setCategory] = useState("All");

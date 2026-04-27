@@ -1,6 +1,6 @@
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarTemp";
 import ProductList from "../components/ProductList";
-import Footer from "../components/Footer";
+import Footer from "../components/FooterTemp";
 
 function Products() {
   return (
